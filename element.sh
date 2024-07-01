@@ -31,5 +31,6 @@ echo $ELEMENT | while IFS="|" read NAME SYMBOL
 do
 echo "The element with atomic number $ATOMIC_NUMBER is $NAME ($SYMBOL). It's a $TYPE, with a mass of $ATOMIC_MASS amu. Hydrogen has a melting point of $MELTING_POINT celsius and a boiling point of $BOILING_POINT celsius."
 done
+done
 fi
 fi
