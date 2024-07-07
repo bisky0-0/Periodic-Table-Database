@@ -30,6 +30,6 @@ fi
 fi
 }
 
-MAIN_FUN 1
-MAIN_FUN H
-MAIN_FUN Hydrogen
+MAIN_FUN 2
+MAIN_FUN He
+MAIN_FUN Helium
