@@ -2,7 +2,6 @@
 PSQL="psql --username=freecodecamp --dbname=periodic_table -t --no-align -c"
 
 #if there's no argument provided
-MAIN_FUN(){
 if [[  -z $1 ]]
 then
 echo "Please provide an element as an argument."
@@ -28,8 +27,3 @@ echo "The element with atomic number $ATOMIC_NUMBER is $NAME ($SYMBOL). It's a $
 done
 fi
 fi
-}
-
-MAIN_FUN 2
-MAIN_FUN He
-MAIN_FUN Helium
